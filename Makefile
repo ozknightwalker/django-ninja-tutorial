@@ -1,5 +1,4 @@
 # HELP
-
 .PHONY: help
 
 help: ## This help.
@@ -36,3 +35,6 @@ file_change_owner: ## Change file ownership
 
 restart_web: ## restart web
 	docker-compose restart web
+
+services: ## restart web
+	docker-compose ps -a
