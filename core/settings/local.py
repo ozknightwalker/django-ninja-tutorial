@@ -12,7 +12,7 @@ DATABASES = {
         "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "postgres",
-        "HOST": "localhost",
+        "HOST": "postgres",
         "PORT": 5432,
         'CONN_MAX_AGE': int(os.environ.get("DB_CONN_MAX_AGE", "500")),
     }
