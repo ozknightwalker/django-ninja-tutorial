@@ -24,7 +24,7 @@ CACHES = {
         "LOCATION": f"redis://localhost:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
-            # "PARSER_CLASS": "redis.connection.HiredisParser",
+            "PARSER_CLASS": "redis.connection.HiredisParser",
         },
         "KEY_PREFIX": "core-be",
     },
